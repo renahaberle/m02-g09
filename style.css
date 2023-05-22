@@ -93,9 +93,9 @@ text-align: center;
 
 .uno h2 { background-color: black;
 position: absolute;
-width: 518px;
+width: 800px;
 height: 104px;
-left: calc(50% - 518px/2 + 0.5px);
+left: calc(50% - 800px/2);
 top: 716px;
 
 font-family: 'Inter';
@@ -178,11 +178,12 @@ margin-left: calc(50% - 800px/2);
 margin-top: 0px;
 }
 
-.cinco h2 {position: absolute;
-width: 244px;
-height: 90px;
-left: calc(50% - 244px/2 + 0.5px);
-top: 1496px;
+.cinco h2 { background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 450px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -195,10 +196,11 @@ color: #D9D9D9;}
 
 
 
-.seis h4 {position: absolute;
+.seis h4 {background-color: whitesmoke;
+position: absolute;
 width: 314px;
 height: 94px;
-left: 115px;
+left:calc(50% - 750px/2);
 top: 1647px;
 
 font-family: 'Inter';
@@ -209,10 +211,11 @@ line-height: 18px;
 
 color: #000000;}
 
-.siete h4 {position: absolute;
+.siete h4 {background-color: whitesmoke;
+position: absolute;
 width: 339px;
 height: 147px;
-right: 138px;
+right: calc(50% - 750px/2);
 top: 1826px;
 
 font-family: 'Inter';
@@ -220,15 +223,23 @@ font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-text-align: right;
+
 
 color: #000000;}
 
-.ocho h4 {position: absolute;
-width: 294px;
-height: 108px;
-left: 105px;
-top: 2189px;
+.hola {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 500px}
+
+.ocho h4 {background-color: whitesmoke;
+position: absolute;
+width: 750px;
+height: 70px;
+left: calc(50% - 750px/2);
+top: 10px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -240,11 +251,12 @@ color: #000000;}
 
 
 
-.nueve h4 {position: absolute;
+.nueve h4 {background-color: whitesmoke;
+position: absolute;
 width: 302px;
 height: 240px;
-left: 113px;
-top: 2390px;
+left: calc(50% - 750px/2);
+top: 200px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -254,25 +266,26 @@ line-height: 18px;
 
 color: #000000;}
 
-.diez h4 {position: absolute;
+.diez h4 {background-color: whitesmoke;
+position: absolute;
 width: 242px;
 height: 131px;
-left: 662px;
-top: 2499px;
+left: calc(50% - 30px/2);
+top: 300px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-text-align: right;
 
 color: #000000;}
 
-.once h2 {position: absolute;
-width: 216px;
+.once h2 {background-color: black;
+position: absolute;
+width: 800px;
 height: 40px;
-left: calc(50% - 216px/2 + 0.5px);
+left: calc(50% - 800px/2);
 top: 2794px;
 
 font-family: 'Inter';
@@ -286,26 +299,29 @@ color: #D9D9D9;}
 
 
 
-.doce h2 {position: absolute;
-width: 277px;
-height: 45px;
-left: calc(50% - 277px/2);
-top: 2948px;
+.doce h2 {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 600px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 32px;
 line-height: 39px;
+text-align: center;
 
 color: #D9D9D9;}
 
 
-.trece h4 {position: absolute;
+.trece h4 {background-color: whitesmoke;
+position: absolute;
 width: 209px;
 height: 324px;
 left: calc(50% - 209px/2);
-top: 3043px;
+top: 2900px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -315,26 +331,29 @@ line-height: 18px;
 
 color: #000000;}
 
-.catorce h2 {position: absolute;
-width: 111px;
-height: 37px;
-left: calc(50% - 111px/2);
-top: 3605px;
+.catorce h2 {background-color:black ;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 700px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 36px;
 line-height: 44px;
+text-align: center;
 
 color: #D9D9D9;
 }
 
-.quince h4 {position: absolute;
+.quince h4 {background-color: whitesmoke;
+position: absolute;
 width: 363px;
 height: 88px;
-left: 70px;
-top: 3734px;
+left: calc(50% - 750px/2);
+top: 3600px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -345,11 +364,12 @@ line-height: 18px;
 color: #000000;}
 
 
-.dieciseis h4 {position: absolute;
+.dieciseis h4 {background-color: whitesmoke;
+position: absolute;
 width: 271px;
 height: 109px;
-left: 688px;
-top: 3927px;
+left:  calc(50% - 1px/2);
+top: 3800px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -357,6 +377,167 @@ font-weight: 200;
 font-size: 15px;
 line-height: 18px;
 text-align: right;
+
+color: #000000;}
+
+.diecisiete h2 {background-color: black;
+position: absolute;
+width: 800px;
+height: 45px;
+left: calc(50% - 800px/2);
+top: 4100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #D9D9D9;
+}
+
+.diecisietedos h2 {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 850px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #D9D9D9;
+}
+
+.diesiocho h4 {background-color: whitesmoke;
+position: absolute;
+width: 750px;
+height: 200px;
+left: calc(50% - 750px/2);
+top: 4250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;}
+
+
+.diesinueve h4 { background-color: whitesmoke;
+position: absolute;
+width: 750px;
+height: 150px;
+left: calc(50% - 750px/2);
+top: 4550px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;}
+
+
+.veinte h2 {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 850px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #D9D9D9;
+}
+
+
+.veintiun h4 {background-color: whitesmoke;
+position: absolute;
+width: 334px;
+height: 300px;
+left: calc(50% - 750px/2);
+top: 4900px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;}
+
+.jaja h2 {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 850px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #D9D9D9;
+}
+.jajauno h4 {background-color: whitesmoke;
+position: absolute;
+width: 750px;
+height: 450px;
+left: calc(50% - 750px/2);
+top: 5420px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;}
+
+.jajads h2 {background-color: black;
+position: relative;
+width: 800px;
+height: 550px;
+left: calc(50% - 800px/2);
+top: 850px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #D9D9D9;
+}
+.jajatres h4 {background-color: whitesmoke;
+position: absolute;
+width: 334px;
+height: 430px;
+left: calc(50% - 311px/2);
+top: 6000px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
 
 color: #000000;}
 
