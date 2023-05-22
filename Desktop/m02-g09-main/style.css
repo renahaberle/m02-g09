@@ -1,2 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {background-color: whitesmoke;}
+.titulo h1 {position: absolute;
+width: 645.12px;
+height: 148.45px;
+margin-left: calc(50% - 645.12px/2 - 11.79px);
+margin-top: 49.55px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: black;}
+
+.paper h2 {position: absolute;
+width: 401px;
+height: 47px;
+margin-left: calc(50% - 225px/2 - 219px);
+margin-top: 130px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+}
+
+.proyecto h2 {position: absolute;
+width: 181px;
+height: 37px;
+margin-left: calc(50% - 248px/2 + 244.5px);
+margin-top: 130px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+}
+
+.vinculacion h2 {position: absolute;
+width: 225px;
+height: 13px;
+margin-left: calc(50% - 225px/2 - 219px);
+margin-top: 460px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;}
+
+.conclusion h2 {position: absolute;
+width: 248px;
+height: 13px;
+margin-left: calc(50% - 248px/2 + 244.5px);
+margin-top: 460px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;}
+
+.pie h6 { position: absolute;
+width: 551px;
+height: 48px;
+left: calc(50% - 551px/2 - 5px);
+top: 538px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: center; }
+
+.dos h1 {position: absolute;
+width: 617px;
+height: 104px;
+left: calc(50% - 617px/2 + 16px);
+top: 716px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #D9D9D9;
+background: #1E1E1E;
+padding-top: 10px;
+}
+
+.tres {position: absolute;
+width: 361px;
+height: 102px;
+left: 530px;
+top: 1000px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+z-index: 2;}
+
+
+.cuatro {position: absolute;
+width: 332px;
+height: 100px;
+left: 530px;
+top: 1127px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+z-index: 2;}
+
+
+.cinco {position: absolute;
+width: 333px;
+height: 119px;
+left: 530px;
+top: 1270px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+z-index: 2;}
+
+.rectangulo1 {position: absolute;
+width: 374px;
+height: 90px;
+left: 530px;
+top: 980px;
+background: #D9D9D9;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.rectangulo2 {position: absolute;
+width: 374px;
+height: 136px;
+left: 530px;
+top: 1092px;
+background: #D9D9D9;
+transform: matrix(1, 0, 0, -1, 0, 0);}
+
+.rectangulo3 {position: absolute;
+width: 375px;
+height: 153px;
+left: 530px;
+top: 1250px;
+background: #D9D9D9;
+transform: matrix(1, 0, 0, -1, 0, 0);}
+
+.fondo {position: absolute;
+width: 978px;
+height: 546px;
+left: 34px;
+top: 885px;
+margin-left: 200px;
+
+background: #000000;}
+
+.seis {position: absolute;
+width: 319px;
+height: 45px;
+left: calc(50% - 319px/2 - 10px);
+top: 1496px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+color: #D9D9D9;
+z-index: 2}
+
+.siete {position: absolute;
+width: 314px;
+height: 94px;
+left: 320px;
+top: 1635px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+z-index: 2}
+
+.ocho {position: absolute;
+width: 352px;
+height: 85px;
+right: 350px;
+top: 1840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+text-align: right;
+z-index: 2}
+
+.fondo2 {position: absolute;
+width: 964px;
+height: 596px;
+left: 34px;
+top: 1472px;
+margin-left: 200px;
+background: #000000;}
+
+.cuadrado1 {position: absolute;
+width: 359px;
+height: 151px;
+left: 93px;
+top: 1600px;
+margin-left: 200px;
+
+background: #D9D9D9;
+transform: matrix(1, 0, 0, -1, 0, 0);}
+
+.cuadrado2 {position: absolute;
+width: 418px;
+height: 212px;
+left: 507px;
+top: 1800px;
+margin-left: 200px;
+
+background: #D9D9D9;
+transform: matrix(1, 0, 0, -1, 0, 0);}
+
+.nueve {position: absolute;
+width: 294px;
+height: 138px;
+left: 300px;
+top: 2189px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+z-index: 2}
+
+.diez {position: absolute;
+width: 302px;
+height: 245px;
+left: 300px;
+top: 2390px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+text-decoration-line: underline;
+z-index: 2}
+
+.once {position: absolute;
+width: 248px;
+height: 160px;
+left: 840px;
+top: 2499px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+text-align: right;
+z-index: 2}
+
+.fondo3 {position: absolute;
+width: 964px;
+height: 610px;
+left: 26px;
+top: 2098px;
+margin-left: 200px;
+background: #000000;
+z-index: -1}
+
+.rectangulo4 {position: absolute;
+width: 352px;
+height: 187px;
+left: 83px;
+top: 2148px;
+margin-left: 200px;
+background: #D9D9D9;}
+
+.rectangulo5 {position: absolute;
+width: 352px;
+height: 304px;
+left: 83px;
+top: 2363px;
+margin-left: 200px;
+background: #D9D9D9;}
+
+.rectangulo6 {position: absolute;
+width: 303px;
+height: 193px;
+left: 634px;
+top: 2474px;
+margin-left: 200px;
+background: #D9D9D9;}
+
+.doce {position: absolute;
+width: 275px;
+height: 40px;
+left: 600px;
+top: 2794px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 34px;
+color: #D9D9D9;
+
+position: absolute;
+width: 958px;
+height: 121px;
+left: calc(50% - 958px/2 - 2.5px);
+top: 2754px;
+background: #1E1E1E;}
+
+
+.trece {position: absolute;
+width: 302px;
+height: 45px;
+left: calc(50% - 302px/2 + 24.5px);
+top: 2948px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+
+color: #D9D9D9;}
+
+.catorce {position: absolute;
+width: 209px;
+height: 402px;
+left: 406px;
+top: 3043px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+margin-left: 200px;
+color: #000000;
+z-index: 2}
+
+.fondo4 {position: absolute;
+width: 991px;
+height: 607px;
+left: calc(50% - 991px/2 + 1px);
+top: 2913px;
+background: #000000;
+z-index: -2}
+
+.rectangulo8 {position: absolute;
+width: 272px;
+height: 389px;
+left: 370px;
+top: 3020px;
+margin-left: 210px;
+background: #D9D9D9;}
+
+.quince {position: absolute;
+width: 123px;
+height: 37px;
+left: calc(50% - 123px/2 + 12px);
+top: 3605px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+
+color: #D9D9D9;}
+
+
+.dieciseis {position: absolute;
+width: 384px;
+height: 152px;
+left: 70px;
+top: 3734px;
+margin-left: 200px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+z-index: 2;
+color: #000000;}
+
+.diecisiete {position: absolute;
+width: 271px;
+height: 157px;
+left: 750px;
+top: 3927px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+text-align: right;
+z-index: 2;
+color: #000000;}
+
+.fondo5 {position: absolute;
+width: 992px;
+height: 604px;
+left: calc(50% - 992px/2 + 0.5px);
+top: 3550px;
+
+background: #000000;
+z-index: -2}
+
+.rectangulo9 {position: absolute;
+width: 396px;
+height: 173px;
+left: calc(50% - 396px/2 - 264.5px);
+top: 3693px;
+background: #D9D9D9;}
+
+.rectangulo10 {position: absolute;
+width: 296px;
+height: 198px;
+left: 750px;
+top: 3886px;
+
+background: #D9D9D9;}
+
+
+
