@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {background-color: whitesmoke; }
+body {background-color: #000000; }
 
 .titulo h1 {position: absolute;
 width: 541.92px;
@@ -16,7 +16,7 @@ font-size: 32px;
 line-height: 38px;
 text-align: center;
 
-color: #000000;}
+color: #D9D9D9;}
 
 .foto1 {
 width: 6500px;
@@ -38,7 +38,7 @@ font-weight: 400;
 font-size: 32px;
 line-height: 38px;
 
-color: #000000;
+color: #D9D9D9;
 }
 
 .proyecto h2 {position: absolute;
@@ -51,7 +51,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-line-height: 38px;color: #000000;
+line-height: 38px;color: #D9D9D9;
 ;
 }
 
@@ -65,7 +65,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-line-height: 38px;color: #000000;}
+line-height: 38px;color: #D9D9D9;}
 
 .conclusion h2 {position: absolute;
 width: 160px;
@@ -77,7 +77,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-line-height: 38px;color: #000000;}
+line-height: 38px;color: #D9D9D9;}
 
 .pie h6 { position: absolute;
 width: 551px;
@@ -90,6 +90,7 @@ font-weight: 700;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
+color: #D9D9D9;
 }
 
 
@@ -98,31 +99,29 @@ position: absolute;
 width: 800px;
 height: 104px;
 left: calc(50% - 800px/2);
-top: 720px;
-
+top: 717px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 44px;
 text-align: center;
-
-color: #D9D9D9;}
+background-color: #1E1E1E;
+color: #D9D9D9;
+padding-top: 20px;}
 
 .porp h3 {background-color: black;
 position:relative;
 width: 800px;
 height:550px;
 left:calc(50% - 800px/2);
-top: 400px;
-
+top: 380px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 24px;
 line-height: 29px;
 text-align: center;
-
 color: #D9D9D9;}
 
 
@@ -130,15 +129,14 @@ color: #D9D9D9;}
 position: absolute;
 width: 334px;
 height: 90px;
-left: calc(50% - 311px/2);
-top: 979px;
-
+left: calc(50% - 340px/2);
+top: 930px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
+padding: 20px;
 color: #000000;}
 
 
@@ -146,15 +144,14 @@ color: #000000;}
 position: absolute;
 width: 334px;
 height: 100px;
-left: calc(50% - 311px/2);
+left: calc(50% - 340px/2);
 top: 1100px;
-
+padding: 20px; 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
 color: #000000; }
 
 
@@ -162,9 +159,9 @@ color: #000000; }
 position: absolute;
 width: 333px;
 height: 119px;
-left: calc(50% - 311px/2);
+left: calc(50% - 340px/2);
 top: 1267px;
-
+padding: 20px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
@@ -178,23 +175,55 @@ float: left;
 position: absolute;    
 margin-left: calc(50% - 800px/2);
 margin-top: 0px;
+top: 950px;
 }
 
-.cinco h2 { background-color: black;
+#foto3  {
+float: left;
+position: absolute;    
+margin-left: calc(50% - 800px/2);
+margin-top: 0px;
+top: 1250px;
+}
+#foto4  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 430px/2);
+margin-top: 0px;
+top: 950px;
+}
+#foto5  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 430px/2);
+margin-top: 0px;
+top: 1120px;
+}
+#foto6  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 430px/2);
+margin-top: 0px;
+top: 1297px;
+}
+
+.cinco h2 {
 position: relative;
-width: 800px;
-height: 550px;
+width: 820px;
+height: 1200px;
 left: calc(50% - 800px/2);
 top: 450px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 26px;
 line-height: 31px;
 text-align: center;
-
 color: #D9D9D9;}
+
+
+
+
 
 
 
@@ -202,47 +231,73 @@ color: #D9D9D9;}
 position: absolute;
 width: 314px;
 height: 94px;
-left:calc(50% - 750px/2);
+left:calc(50% - 800px/2);
 top: 1647px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
+padding: 30px;
 color: #000000;}
 
 .siete h4 {background-color: whitesmoke;
 position: absolute;
 width: 339px;
 height: 147px;
-right: calc(50% - 750px/2);
+right: calc(50% - 820px/2);
 top: 1826px;
-
+padding: 30px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
-
 color: #000000;}
 
-.hola {background-color: black;
-position: relative;
-width: 800px;
-height: 550px;
-left: calc(50% - 800px/2);
-top: 500px}
+#foto7  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 10px/2);
+margin-top: 0px;
+top: 1667px;
+}
+#foto8  {
+float: left;
+position: absolute;    
+margin-left: calc(50% - 820px/2);
+margin-top: 0px;
+top: 1845px;
+}
+#foto9  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 7px/2);
+margin-top: 0px;
+top: 2070px;
+}
+#foto10  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 380px/2);
+margin-top: 0px;
+top: 2240px;
+}
+#foto11  {
+float: left;
+position: absolute;    
+margin-left: calc(50% + 500px/2);
+margin-top: 0px;
+top: 2070px;
+}
 
 .ocho h4 {background-color: whitesmoke;
 position: absolute;
-width: 750px;
-height: 70px;
-left: calc(50% - 750px/2);
-top: 10px;
-
+width: 314px;
+height: 94px;
+left: calc(50% - 800px/2);
+top: 2050px;
+padding: 30px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
@@ -256,25 +311,24 @@ color: #000000;}
 .nueve h4 {background-color: whitesmoke;
 position: absolute;
 width: 302px;
-height: 240px;
-left: calc(50% - 750px/2);
-top: 200px;
-
+height: 280px;
+left: calc(50% - 800px/2);
+top: 2220px;
+padding: 20px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
 color: #000000;}
 
 .diez h4 {background-color: whitesmoke;
 position: absolute;
-width: 242px;
-height: 131px;
-left: calc(50% - 30px/2);
-top: 300px;
-
+width: 170px;
+height: 280px;
+left: calc(50% - 65px/2);
+top: 2220px;
+padding: 20px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
