@@ -437,50 +437,83 @@ color: #000000;}
 position: relative;
 width: 800px;
 height: 550px;
-left: calc(50% - 800px/2);
-top: 700px;
-
+top: 900px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 36px;
 line-height: 44px;
 text-align: center;
-
 color: #D9D9D9;
 }
 
+#coca1 {margin-left: 130px;
+margin-top: 188px;
+position: absolute;
+left: 468px;
+top: 3398px;
+height: 160px;}
+
+#coca2 {position: absolute;
+left: 699px;
+top: 3398px;
+margin-top: 190px;
+margin-left: 160px;}
+
+#coca3 {position: absolute;
+left: 368px;
+top: 3591px;
+margin-top:168px;
+margin-left: 200px;
+}
+
+#coca4 {position: absolute;
+left: 368px;
+top: 3591px;
+margin-top:168px;
+margin-left: 480px;
+height: 173px;
+width: 260px;
+}
+
+
+
+
+
 .quince h4 {background-color: whitesmoke;
 position: absolute;
-width: 363px;
-height: 88px;
+width: 340px;
+height: 100px;
 left: calc(50% - 750px/2);
 top: 3600px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
-color: #000000;}
+color: #000000;
+margin-left: -80px;
+padding: 30px;
+margin-top: -15px}
 
 
 .dieciseis h4 {background-color: whitesmoke;
 position: absolute;
-width: 271px;
-height: 109px;
+width: 300px;
+height: 110px;
 left:  calc(50% - 1px/2);
 top: 3800px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-text-align: right;
+color: #000000;
+margin-left: -450px;
+padding: 30px;
+margin-top: -40px}
 
-color: #000000;}
+
 
 .diecisiete h2 {background-color: black;
 position: absolute;
