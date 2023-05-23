@@ -532,17 +532,16 @@ text-align: center;
 color: #D9D9D9;
 }
 
-.diecisietedos h2 {background-color: black;
-position: relative;
-width: 800px;
-height: 550px;
+.diecisietedos h3 {background-color: black;
+position: absolute;
+width: 400px;
+height: 45px;
 left: calc(50% - 800px/2);
-top: 850px;
-
+top: 4200px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 36px;
+font-size: 26px;
 line-height: 44px;
 text-align: center;
 
@@ -551,18 +550,19 @@ color: #D9D9D9;
 
 .diesiocho h4 {background-color: whitesmoke;
 position: absolute;
-width: 750px;
-height: 200px;
-left: calc(50% - 750px/2);
-top: 4250px;
-
+width: 350px;
+height: 160px;
+left:  calc(50% - 1px/2);
+top: 4400px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 18px;
-
-color: #000000;}
+color: #000000;
+margin-left: -450px;
+padding: 30px;
+margin-top: -40px}
 
 
 .diesinueve h4 { background-color: whitesmoke;
@@ -581,17 +581,17 @@ line-height: 18px;
 color: #000000;}
 
 
-.veinte h2 {background-color: black;
-position: relative;
-width: 800px;
-height: 550px;
-left: calc(50% - 800px/2);
-top: 850px;
+.veinte h3 {
+position: absolute;
+width: 400px;
+height: 45px;
+left: calc(50% + 200px/2);
+top: 4200px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 36px;
+font-size: 26px;
 line-height: 44px;
 text-align: center;
 
@@ -619,7 +619,7 @@ position: relative;
 width: 800px;
 height: 550px;
 left: calc(50% - 800px/2);
-top: 850px;
+top: 1900px;
 
 font-family: 'Inter';
 font-style: normal;
